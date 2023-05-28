@@ -381,16 +381,16 @@ img {
   border: 1px solid var(--subtle-text);
   color: var(--subtle-text);
 }
+.customers-icon {
+  fill: currentColor;
+}
 .customers-link:hover,
 .customers-link:focus {
   border-color: var(--pressed-state);
 }
-.customers-icon {
-  fill: currentColor;
-}
 .customers-link:hover .customers-icon,
 .customers-link:focus .customers-icon {
-  color: #404bbf;
+  color: var(--pressed-state);
 }
 /*----------------PORTFOLIO----------------*/
 .portfolio {
