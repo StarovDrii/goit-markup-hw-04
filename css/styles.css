@@ -387,11 +387,12 @@ img {
 .customers-link:hover,
 .customers-link:focus {
   border-color: var(--pressed-state);
-}
-.customers-link:hover .customers-icon,
-.customers-link:focus .customers-icon {
   color: var(--pressed-state);
 }
+/* .customers-link:hover .customers-icon,
+.customers-link:focus .customers-icon {
+  color: var(--pressed-state);
+} */
 /*----------------PORTFOLIO----------------*/
 .portfolio {
   padding-top: 96px;
